@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#leftnav{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#leftnav h5{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+img{
+    width: 20%;
+    height: 105%;
+}
+#rightnav{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#rightnav h5{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+#rightnav i{
+    font-size: 2.5vw;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  
+    /* Set a specific height */
+    min-height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#one{
+    background-image: url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1883&q=80");
+}
+#two{
+    background-image: url("https://images.unsplash.com/photo-1531181616225-f8e50c1ab53e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+#three{
+    background-image: url("https://images.unsplash.com/photo-1544468607-e7b3e848ff87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=950&q=80");
+}
+#bg{
+    width: 100%;
+   position: relative;
+}
+#page1{
+    width: 100%;
+   height: 180vh;
+   position: relative;
+    background-color: aliceblue;
+}
+#page1 h2{
+    position: absolute;
+    font-size: 6vw;
+    font-weight: 100;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+#page1 #card{
+    width: 100%;
+    height: 45%;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+}
+#page1 #card .cards{
+    width: 30%;
+    height: 100%;
+}
+#page1 #card .cards:hover{
+    width: 31%;
+}
+#page1 #card #onecards img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#page1 #card #twocards img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#page1 #card #threecards img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#page1 #card .cards h3{
+    font-size: 1.9vw;
+    position: absolute;
+    margin-top: -11%;
+    color: white;
+    margin-left: 3%;
+}
+#page2{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+}
+#page2 h2{
+    position: absolute;
+    font-size: 6vw;
+    font-weight: 100;
+    margin-top: 7%;
+    color: white;
+    margin-left: 3%;
+}
+#page2 #cardpage2{
+    width: 100%;
+    height: 13%;
+    margin-top: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+}
+#page2 h3{
+    font-size: 3.5vw;
+    color: white;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 3%;
+}
+#page2 h5{
+    font-size: 1.5vw;
+    color: white;
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 63%;
+}
+#page2 i{
+    font-size: 1.9vw;
+    color: white;
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 83%;
+}
+#page2 #line{
+    width: 35%;
+    height: .1%;
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 63%;
+    background-color: white;
+}
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 8, 8);
+}
+#esp{
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#page3 img{
+    width: 25%;
+    height: 35%;
+}
+.explore{
+    width: 25%;
+    height: 100%;
+}
+#page3 #esp .explore h5{
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 10%;
+    margin-left: 8%;
+    text-transform: uppercase;
+}
+#page3 #esp .explore h3{
+    color: white;
+    font-size: 2.3vw;
+    margin-left: 8%;
+    text-transform: uppercase;
+}
+#page3 #line1{
+    width: 100%;
+    height: .02%;
+    background-color: white;
+    position: absolute;
+    margin-top: 30%;
+}
+#page3 h4{
+    color: white;
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 5%;
+    text-align: 5px;
+}
+#page3 h5{
+    color: white;
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 75%;
+    font-size: 1.4vw;
+    text-align: 5px;
+}
